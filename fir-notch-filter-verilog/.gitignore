@@ -1,0 +1,25 @@
+# Quartus - arquivos gerados, não precisam ir pro repositório
+quartus/output_files/
+quartus/db/
+quartus/incremental_db/
+quartus/*.qws
+quartus/*.rpt
+quartus/*.summary
+quartus/*.smsg
+quartus/*.pin
+quartus/*.sof
+quartus/*.pof
+quartus/*.jdi
+quartus/*.done
+quartus/*.qdf
+quartus/*.qarlog
+
+# ModelSim
+work/
+*.wlf
+transcript
+vsim.wlf
+
+# SO
+.DS_Store
+Thumbs.db
